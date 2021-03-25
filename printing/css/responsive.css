@@ -1,0 +1,226 @@
+/* Normal desktop :1600px. */
+@media (min-width: 170px) and (max-width: 1600px) {
+.header-area{margin:10px 0 0;}
+.nivo-directionNav a {top: 60%;}
+.slider-content {  margin: 80px 0;}
+.slider-1 h3 {  font-size: 35px;}
+.slider-1 h1 { font-size: 50px;}
+.home-page-room-area .single-room-area .feature-image .overley .view-room {margin: 70px auto;}
+.client-logo-area .logo-area ul li {margin: 45px;}
+.all-room-one-inner-area .all-rooms-inner-odd-area .odd-area-content-section {padding: 60px 0;}
+.room-verstion-three-area .single-rooms-version-three-area h2 {font-size: 16px;}
+.room-verstion-three-area .single-rooms-version-three-area h2 span span {font-size: 10px;}
+.modal-content {  margin: 170px 0 0;}
+.blog-section-area .blog-content-area .blog-single .blog-body h3 a {font-size: 18px;}
+
+}
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+.header-area{margin:0;}
+.slider-1 h3 {  font-size: 25px;}
+.slider-1 h1 { font-size: 40px;}
+.slider-content {  margin: 80px 0;}
+.home-page-room-area .single-room-area .feature-image .overley .view-room {margin: 65px auto;}
+.client-logo-area .logo-area ul li {margin: 40px;}
+.all-room-one-inner-area .all-rooms-inner-odd-area .odd-area-content-section {padding: 70px 0;}
+.room-verstion-three-area .single-rooms-version-three-area h2 {font-size: 15px;}
+.single-activitie-area .single-page-activities-gellary .activities-single-image .overley a {margin: 40% auto;}
+.header-area .header .main-menu-area ul li ul { left: inherit;  right: 0 !important;}
+.header-area .header .header-top-area .header-top-area-right ul li.flag-menu ul {right: 0;left: inherit;}
+.nivo-directionNav a {top: 60%;}
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.mobile-menu-area{  display: block;}
+.header-area{display: none;}
+.header-area{margin:0;}
+.slider-1 h3 {  font-size: 25px;}
+.slider-1 h1 { font-size: 40px;}
+.slider-content {  margin-top: 0px;}
+.home-page-room-area .single-room-area .feature-image .overley .view-room {margin: 45px auto;}
+.client-logo-area .logo-area ul li {margin: 20px;}
+.all-room-one-inner-area .all-rooms-inner-odd-area .odd-area-content-section {padding: 0px 0;}
+.room-verstion-three-area .single-rooms-version-three-area h2 {font-size: 15px;}
+.single-activitie-area .single-page-activities-gellary .activities-single-image .overley a {margin: 40% auto;}
+.header-area .header .main-menu-area ul li ul { left: inherit;  right: 0 !important;}
+.single-gallery img {  width: 100%;}
+.general-facilitiy-area p {  padding: 0 30px;}
+.modal-content {  margin: 312px 0 0;}
+.header-bennar-area {padding: 10px 0 70px;}
+
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.container {width:300px}
+.mobile-menu-area{  display: block;}
+.header-area{display: none;}
+.header-area{margin:0;}
+.slider-1 h3 {  font-size: 25px;}
+.slider-1 h1 { font-size: 40px;}
+.slider-content {  margin-top: 0px;}
+.home-page-room-area .single-room-area .feature-image .overley .view-room {margin: 45px auto;}
+.client-logo-area .logo-area ul li {margin: 20px;}
+.all-room-one-inner-area .all-rooms-inner-odd-area .odd-area-content-section {padding: 0px 0;}
+.room-verstion-three-area .single-rooms-version-three-area h2 {font-size: 15px;}
+.single-activitie-area .single-page-activities-gellary .activities-single-image .overley a {margin: 40% auto;}
+.header-area .header .main-menu-area ul li ul { left: inherit;  right: 0 !important;}
+.single-gallery img {  width: 100%;}
+.general-facilitiy-area p {  padding: 0 30px;}
+.modal-content {  margin: 312px 0 0;}
+.header-bennar-area, .header-bennar-area2, .header-bennar-area3{padding: 10px 0 70px;}
+.contact-us-area {  margin: 22px 0;}
+.footer-bottom-area .footer-bottom-right {  text-align: center;  margin-top: 15px;}
+.all-room-one-inner-area .single-rooms1-area .rooms1-facility-area h2, .single-room-details-area .room-details-area h2, .blog-body h3.media-heading {  margin-top: 20px;}
+.section-title h2 {  margin-top: 20px;}
+.single-activitie-area .single-activities-content .wedding-price-area {margin: 0 0 15px;}
+.single-blog-page-area .single-blog-content-area .next-prvius-area .left ul li {line-height: 20px;}
+.single-blog-page-area .single-blog-content-area .next-prvius-area .right ul li, .single-blog-page-area .single-blog-content-area .next-prvius-area .right ul li {line-height: 20px;}
+.padding-left{  padding-left: 15px;}
+.padding-right {  padding-right: 15px;}
+.header-bennar-area1 .bennar-content h2,
+.header-bennar-area2 .bennar-content h2,
+.header-bennar-area .bennar-content h2,
+.header-bennar-area3 .bennar-content h2 {font-size: 30px;  margin-top: 50px;}
+.header-bennar-area, .header-bennar-area2, .header-bennar-area3, .header-bennar-area1, .all-activitie-area, .single-activitie-area{padding: 10px 0 70px;}
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+.mobile-menu-area{  display: block;}
+.header-area{display: none;}
+.header-area{margin:0;}
+.slider-1 h3 {  font-size: 25px;}
+.slider-1 h1 { font-size: 40px;}
+.slider-content {  margin-top: 0px;}
+.home-page-room-area .single-room-area .feature-image .overley .view-room {margin: 45px auto;}
+.client-logo-area .logo-area ul li {margin: 20px;}
+.all-room-one-inner-area .all-rooms-inner-odd-area .odd-area-content-section {padding: 0px 0;}
+.room-verstion-three-area .single-rooms-version-three-area h2 {font-size: 15px;}
+.single-activitie-area .single-page-activities-gellary .activities-single-image .overley a {margin: 40% auto;}
+.header-area .header .main-menu-area ul li ul { left: inherit;  right: 0 !important;}
+.single-gallery img {  width: 100%;}
+.general-facilitiy-area p {  padding: 0 30px;}
+.modal-content {  margin: 312px 0 0;}
+.header-bennar-area, .header-bennar-area2, .header-bennar-area3{padding: 10px 0 70px;}
+.contact-us-area {  margin: 22px 0;}
+.footer-bottom-area .footer-bottom-right {  text-align: center;  margin-top: 15px;}
+.all-room-one-inner-area .single-rooms1-area .rooms1-facility-area h2, .single-room-details-area .room-details-area h2, .blog-body h3.media-heading {  margin-top: 20px;}
+.section-title h2 {  margin-top: 20px;}
+.single-activitie-area .single-activities-content .wedding-price-area {margin: 0 0 15px;}
+.single-blog-page-area .single-blog-content-area .next-prvius-area .left ul li {line-height: 20px;}
+.single-blog-page-area .single-blog-content-area .next-prvius-area .right ul li, .single-blog-page-area .single-blog-content-area .next-prvius-area .right ul li {line-height: 20px;}
+.padding-left{  padding-left: 15px;}
+.padding-right {  padding-right: 15px;}
+.header-bennar-area1 .bennar-content h2,
+.header-bennar-area2 .bennar-content h2,
+.header-bennar-area .bennar-content h2,
+.header-bennar-area3 .bennar-content h2 {font-size: 30px;  margin-top: 50px;}
+.header-bennar-area, .header-bennar-area2, .header-bennar-area3, .header-bennar-area1, .all-activitie-area, .single-activitie-area{padding: 10px 0 70px;}
+.slider-content, .nivo-directionNav{display: none;}
+}
+@media (max-width: 480px) {
+	.mobile-menu-area{  display: block;}
+	.header-area{display: none;}
+	.header-area{margin:0;}
+	.slider-content, .nivo-directionNav{display: none;}
+	.home-page-room-area .single-room-area .feature-image .overley .view-room {margin: 130px auto;}
+	.client-logo-area .logo-area ul li {margin: 20px;}
+	.all-room-one-inner-area .all-rooms-inner-odd-area .odd-area-content-section {padding: 20px 0;}
+	.room-verstion-three-area .single-rooms-version-three-area h2 {font-size: 15px;margin-bottom: 40px;}
+	.single-activitie-area .single-page-activities-gellary .activities-single-image .overley a {margin: 40% auto;}
+	.header-area .header .main-menu-area ul li ul { left: inherit;  right: 0 !important;}
+	.single-gallery img {  width: 100%;}
+	.general-facilitiy-area p {  padding: 0 30px;}
+	.modal-content {  margin: 312px 0 0;}
+	.header-bennar-area, .header-bennar-area2, .header-bennar-area3, .header-bennar-area1, .all-activitie-area, .single-activitie-area{padding: 10px 0 70px;}
+	.contact-us-area {  margin: 22px 0;}
+	.footer-bottom-area .footer-bottom-right {  text-align: center;  margin-top: 15px;}
+	.all-room-one-inner-area .single-rooms1-area .rooms1-facility-area h2, .single-room-details-area .room-details-area h2, .blog-body h3.media-heading {  margin-top: 20px;}
+	.section-title h2 {  margin-top: 20px;}
+	.single-activitie-area .single-activities-content .wedding-price-area {margin: 0 0 15px;}
+	.single-blog-page-area .single-blog-content-area .next-prvius-area .left ul li {line-height: 20px;}
+	.single-blog-page-area .single-blog-content-area .next-prvius-area .right ul li, .single-blog-page-area .single-blog-content-area .next-prvius-area .right ul li {line-height: 20px;}
+	.padding-left{  padding-left: 15px;}
+	.padding-right {  padding-right: 15px;}
+	.footer-bottom-area .footer-bottom-left p { text-align: center;}
+	.home-page-nature-area .home-page-nature h2, .general-facilitiy-area h2 {font-size: 24px;}
+	.home-page-nature-area .home-page-nature h3, .rooms-two-page-area .single-rooms-area-two .content-area h2{font-size: 20px;}
+	.all-room-one-inner-area .all-rooms-inner-odd-area .odd-area-content-section p {  padding: 0 10px;}
+	.general-facilitiy-area h4 span { margin: 15px 0px; display: block;}
+	.slider-bottom-area,
+	.home-page-room-area,
+	.home-page-nature-area,
+	.home-page-gallery-area,
+	.footer-bottom-area,
+	.footer-top-area,
+	.home-two-testimonial-area,
+	.all-room-one-inner-area,
+	.rooms-two-page-area {  padding: 10px 0;}
+	.margin-top{margin-top: 20px}
+	.rooms-two-page-area .single-rooms-area-two ul li {margin: 15px 25px;}
+	.rooms-two-page-area .single-rooms-area-two ul li:last-child {  float: left;}
+	.room-verstion-three-area .single-rooms-version-three-area h2 a {  color: #333333;  display: block;margin-bottom: 10px;}
+	.room-verstion-three-area .single-rooms-version-three-area h2 span {  float: left; }
+	.header-bennar-area1 .bennar-content h2,
+	.header-bennar-area2 .bennar-content h2,
+	.header-bennar-area .bennar-content h2,
+	.header-bennar-area3 .bennar-content h2 {font-size: 30px;  margin-top: 50px;}
+
+}
+@media (max-width: 320px) {
+	.mobile-menu-area{  display: block;}
+	.header-area{display: none;}
+	.header-area{margin:0;}
+	.slider-content, .nivo-directionNav{display: none;}
+	.home-page-room-area .single-room-area .feature-image .overley .view-room {margin: 80px auto;}
+	.client-logo-area .logo-area ul li {margin: 20px;}
+	.all-room-one-inner-area .all-rooms-inner-odd-area .odd-area-content-section {padding: 20px 0;}
+	.room-verstion-three-area .single-rooms-version-three-area h2 {font-size: 15px;margin-bottom: 40px;}
+	.single-activitie-area .single-page-activities-gellary .activities-single-image .overley a {margin: 40% auto;}
+	.header-area .header .main-menu-area ul li ul { left: inherit;  right: 0 !important;}
+	.single-gallery img {  width: 100%;}
+	.general-facilitiy-area p {  padding: 0 30px;}
+	.modal-content {  margin: 312px 0 0;}
+	.header-bennar-area, .header-bennar-area2, .header-bennar-area3, .header-bennar-area1, .all-activitie-area, .single-activitie-area{padding: 10px 0 70px;}
+	.contact-us-area {  margin: 22px 0;}
+	.footer-bottom-area .footer-bottom-right {  text-align: center;  margin-top: 15px;}
+	.all-room-one-inner-area .single-rooms1-area .rooms1-facility-area h2, .single-room-details-area .room-details-area h2, .blog-body h3.media-heading {  margin-top: 20px;}
+	.section-title h2 {  margin-top: 20px;}
+	.single-activitie-area .single-activities-content .wedding-price-area {margin: 0 0 15px;}
+	.single-blog-page-area .single-blog-content-area .next-prvius-area .left ul li {line-height: 20px;}
+	.single-blog-page-area .single-blog-content-area .next-prvius-area .right ul li, .single-blog-page-area .single-blog-content-area .next-prvius-area .right ul li {line-height: 20px;}
+	.padding-left{  padding-left: 15px;}
+	.padding-right {  padding-right: 15px;}
+	.footer-bottom-area .footer-bottom-left p { text-align: center;}
+	.home-page-nature-area .home-page-nature h2, .general-facilitiy-area h2 {font-size: 24px;}
+	.home-page-nature-area .home-page-nature h3, .rooms-two-page-area .single-rooms-area-two .content-area h2{font-size: 20px;}
+	.all-room-one-inner-area .all-rooms-inner-odd-area .odd-area-content-section p {  padding: 0 10px;}
+	.general-facilitiy-area h4 span { margin: 15px 0px; display: block;}
+	.slider-bottom-area,
+	.home-page-room-area,
+	.home-page-nature-area,
+	.home-page-gallery-area,
+	.footer-bottom-area,
+	.footer-top-area,
+	.home-two-testimonial-area,
+	.all-room-one-inner-area,
+	.rooms-two-page-area {  padding: 10px 0;}
+	.margin-top{margin-top: 20px}
+	.rooms-two-page-area .single-rooms-area-two ul li {margin: 15px 25px;}
+	.rooms-two-page-area .single-rooms-area-two ul li:last-child {  float: left;}
+	.room-verstion-three-area .single-rooms-version-three-area h2 a {  color: #333333;  display: block;margin-bottom: 10px;}
+	.room-verstion-three-area .single-rooms-version-three-area h2 span {  float: left; }
+	.header-bennar-area1 .bennar-content h2,
+	.header-bennar-area2 .bennar-content h2,
+	.header-bennar-area .bennar-content h2,
+	.header-bennar-area3 .bennar-content h2 {font-size: 30px;  margin-top: 50px;}
+
+}
+ 

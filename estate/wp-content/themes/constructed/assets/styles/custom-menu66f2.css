@@ -1,0 +1,9 @@
+.custom-menu-type,
+.custom-post-type-detailed,
+.custom-sub-text {
+	display: none;
+}
+.menu-item-depth-0 .custom-menu-type,
+.menu-item-depth-0 .custom-sub-text {
+	display: block;
+}

@@ -1,0 +1,647 @@
+/*============================================================================
+  Social Icon Buttons v1.0
+  Author:
+    Carson Shold | @cshold
+    http://www.carsonshold.com
+  MIT License
+==============================================================================*/
+@font-face {
+  font-family: 'icons';
+  src: url("../fonts/social-buttons/icons8d5e.eot?qhrhpx");
+  src: url("../fonts/social-buttons/icons8d5e.eot?qhrhpx#iefix") format("embedded-opentype"), url("../fonts/social-buttons/icons8d5e.ttf?qhrhpx") format("truetype"), url("../fonts/social-buttons/icons8d5e.woff?qhrhpx") format("woff"), url("../fonts/social-buttons/icons8d5e.svg?qhrhpx#icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "icons2";
+  src: url("../fonts/icons/icons.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+[data-icon]:before {
+  content: attr(data-icon);
+}
+
+[data-icon]:before,
+[class*=icons8]:before {
+  display: inline-block;
+  font-family: "icons2";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+.icons8-anchor:before {
+  content: "\f100";
+}
+.icons8-apartment:before {
+  content: "\f101";
+}
+.icons8-armchair:before {
+  content: "\f102";
+}
+.icons8-attach:before {
+  content: "\f103";
+}
+.icons8-basement:before {
+  content: "\f104";
+}
+.icons8-basketball:before {
+  content: "\f105";
+}
+.icons8-bath:before {
+  content: "\f106";
+}
+.icons8-bungalow:before {
+  content: "\f107";
+}
+.icons8-bureau:before {
+  content: "\f108";
+}
+.icons8-calendar:before {
+  content: "\f109";
+}
+.icons8-cathedral:before {
+  content: "\f10a";
+}
+.icons8-chat:before {
+  content: "\f10b";
+}
+.icons8-checked:before {
+  content: "\f10c";
+}
+.icons8-checked-checkbox-2:before {
+  content: "\f10d";
+}
+.icons8-circled-play:before {
+  content: "\f10e";
+}
+.icons8-circled-right-2:before {
+  content: "\f10f";
+}
+.icons8-combo-chart:before {
+  content: "\f110";
+}
+.icons8-coniferous-tree:before {
+  content: "\f111";
+}
+.icons8-construction-worker:before {
+  content: "\f112";
+}
+.icons8-currency-exchange:before {
+  content: "\f113";
+}
+.icons8-degrees:before {
+  content: "\f114";
+}
+.icons8-desk-lamp:before {
+  content: "\f115";
+}
+.icons8-dining-room:before {
+  content: "\f116";
+}
+.icons8-doc:before {
+  content: "\f117";
+}
+.icons8-edit-property:before {
+  content: "\f118";
+}
+.icons8-email:before {
+  content: "\f119";
+}
+.icons8-exterior:before {
+  content: "\f11a";
+}
+.icons8-factory:before {
+  content: "\f11b";
+}
+.icons8-floor-plan:before {
+  content: "\f11c";
+}
+.icons8-fork-lift:before {
+  content: "\f11d";
+}
+.icons8-forward-arrow:before {
+  content: "\f11e";
+}
+.icons8-front-desk:before {
+  content: "\f11f";
+}
+.icons8-garage:before {
+  content: "\f120";
+}
+.icons8-garage-closed:before {
+  content: "\f121";
+}
+.icons8-garage-open:before {
+  content: "\f122";
+}
+.icons8-gas:before {
+  content: "\f123";
+}
+.icons8-gender-neutral-user:before {
+  content: "\f124";
+}
+.icons8-geo-fence:before {
+  content: "\f125";
+}
+.icons8-globe-earth:before {
+  content: "\f126";
+}
+.icons8-guest:before {
+  content: "\f127";
+}
+.icons8-high-importance:before {
+  content: "\f128";
+}
+.icons8-home:before {
+  content: "\f129";
+}
+.icons8-lamp:before {
+  content: "\f12a";
+}
+.icons8-launched-rocket:before {
+  content: "\f12b";
+}
+.icons8-layers:before {
+  content: "\f12c";
+}
+.icons8-length:before {
+  content: "\f12d";
+}
+.icons8-light-automation:before {
+  content: "\f12e";
+}
+.icons8-like:before {
+  content: "\f12f";
+}
+.icons8-like-filled:before {
+  content: "\f130";
+}
+.icons8-list:before {
+  content: "\f131";
+}
+.icons8-long-arrow-right:before {
+  content: "\f132";
+}
+.icons8-maintenance:before {
+  content: "\f133";
+}
+.icons8-map-marker:before {
+  content: "\f134";
+}
+.icons8-marker:before {
+  content: "\f135";
+}
+.icons8-message:before {
+  content: "\f136";
+}
+.icons8-minus-math:before {
+  content: "\f137";
+}
+.icons8-oil-pump-jack:before {
+  content: "\f138";
+}
+.icons8-online-support:before {
+  content: "\f139";
+}
+.icons8-overtime:before {
+  content: "\f13a";
+}
+.icons8-paddling:before {
+  content: "\f13b";
+}
+.icons8-page-overview-3:before {
+  content: "\f13c";
+}
+.icons8-paint-bucket:before {
+  content: "\f13d";
+}
+.icons8-paint-sprayer:before {
+  content: "\f13e";
+}
+.icons8-pdf:before {
+  content: "\f13f";
+}
+.icons8-permanent-job:before {
+  content: "\f140";
+}
+.icons8-phone:before {
+  content: "\f141";
+}
+.icons8-play:before {
+  content: "\f142";
+}
+.icons8-plumbing:before {
+  content: "\f143";
+}
+.icons8-plus-math:before {
+  content: "\f144";
+}
+.icons8-questions:before {
+  content: "\f145";
+}
+.icons8-quick-mode-on:before {
+  content: "\f146";
+}
+.icons8-quote-left:before {
+  content: "\f147";
+}
+.icons8-recycling:before {
+  content: "\f148";
+}
+.icons8-right:before {
+  content: "\f149";
+}
+.icons8-road-worker:before {
+  content: "\f14a";
+}
+.icons8-roadblock:before {
+  content: "\f14b";
+}
+.icons8-rocket:before {
+  content: "\f14c";
+}
+.icons8-roller-brush:before {
+  content: "\f14d";
+}
+.icons8-rss:before {
+  content: "\f14e";
+}
+.icons8-ruler:before {
+  content: "\f14f";
+}
+.icons8-search:before {
+  content: "\f150";
+}
+.icons8-share:before {
+  content: "\f151";
+}
+.icons8-shop:before {
+  content: "\f152";
+}
+.icons8-shower-and-tub:before {
+  content: "\f153";
+}
+.icons8-sms:before {
+  content: "\f154";
+}
+.icons8-sofa:before {
+  content: "\f155";
+}
+.icons8-street-view:before {
+  content: "\f156";
+}
+.icons8-table:before {
+  content: "\f157";
+}
+.icons8-tags:before {
+  content: "\f158";
+}
+.icons8-talk:before {
+  content: "\f159";
+}
+.icons8-test-tube:before {
+  content: "\f15a";
+}
+.icons8-text-box:before {
+  content: "\f15b";
+}
+.icons8-truck:before {
+  content: "\f15c";
+}
+.icons8-wall-socket:before {
+  content: "\f15d";
+}
+.icons8-wardrobe:before {
+  content: "\f15e";
+}
+.icons8-watch:before {
+  content: "\f15f";
+}
+.icons8-water:before {
+  content: "\f160";
+}
+.icons8-work:before {
+  content: "\f161";
+}
+.icons8-worker:before {
+  content: "\f162";
+}
+.icons8-workers:before {
+  content: "\f163";
+}
+/*==============================================================================*/
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fancy:before {
+  content: "\46";
+}
+
+.icon-twitter:before {
+  content: "\54";
+}
+
+.icon-facebook:before {
+  content: "\66";
+}
+
+.icon-google:before {
+  content: "\67";
+}
+
+.icon-pinterest:before {
+  content: "\70";
+}
+
+.icon-reddit:before {
+  content: "\52";
+}
+
+.icon-linkedin:before {
+  content: "\69";
+}
+
+.icon-skype:before {
+  content: "\e900";
+}
+
+/*================ Social share buttons ================*/
+.social-sharing {
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*================ Large Buttons ================*/
+}
+
+.social-sharing * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.social-sharing a {
+  display: inline-block;
+  color: #fff;
+  border-radius: 2px;
+  margin: 0 10px 10px 0;
+  height: 22px;
+  line-height: 22px;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.social-sharing a:hover {
+  color: #fff;
+}
+
+.social-sharing span {
+  display: inline-block;
+  vertical-align: top;
+  height: 22px;
+  line-height: 22px;
+  font-size: 12px;
+}
+
+.social-sharing .icon {
+  padding: 0 5px 0 10px;
+}
+
+.social-sharing .icon:before {
+  line-height: 22px;
+}
+
+.social-sharing.is-large a {
+  height: 44px;
+  line-height: 44px;
+}
+
+.social-sharing.is-large a span {
+  height: 44px;
+  line-height: 44px;
+  font-size: 18px;
+}
+
+.social-sharing.is-large a .icon {
+  padding: 0 10px 0 18px;
+}
+
+.social-sharing.is-large a .icon:before {
+  line-height: 44px;
+}
+
+.share-title {
+  font-weight: 900;
+  font-size: 12px;
+  padding-right: 10px;
+}
+
+.is-large .share-title {
+  padding-right: 16px;
+}
+
+.share-facebook {
+  background-color: #3b5998;
+}
+
+.share-facebook:hover {
+  background-color: #2d4373;
+}
+
+.share-twitter {
+  background-color: #00aced;
+}
+
+.share-twitter:hover {
+  background-color: #0087ba;
+}
+
+.share-pinterest {
+  background-color: #cb2027;
+}
+
+.share-pinterest:hover {
+  background-color: #9f191f;
+}
+
+.share-fancy {
+  background-color: #4999dc;
+}
+
+.share-fancy:hover {
+  background-color: #2780cb;
+}
+
+.share-google {
+  background-color: #dd4b39;
+}
+
+.share-google:hover {
+  background-color: #c23321;
+}
+
+.share-reddit {
+  background-color: #5f99cf;
+}
+
+.share-reddit:hover {
+  background-color: #3a80c1;
+}
+
+.share-linkedin {
+  background-color: #0077b5;
+}
+
+.share-linkedin:hover {
+  background-color: #005582;
+}
+
+.share-skype {
+  background-color: #00aff0;
+}
+
+.share-skype:hover {
+  background-color: #008abd;
+}
+
+.share-count {
+  position: relative;
+  background-color: #fff;
+  padding: 0 8px;
+  margin-right: -2px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+  border-radius: 0 2px 2px 0;
+  border: 1px solid #ececec;
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-in;
+  -moz-transition: opacity 0.2s ease-in;
+  -o-transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in;
+}
+
+.share-count.is-loaded {
+  opacity: 1;
+}
+
+.share-count:before,
+.share-count:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  margin-top: -6px;
+  width: 0;
+  height: 0;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-right: 6px solid;
+}
+
+.share-count:before {
+  left: -6px;
+  border-right-color: #ececec;
+}
+
+.share-count:after {
+  left: -5px;
+  border-right-color: #fff;
+}
+
+a:hover .share-count {
+  background-color: whitesmoke;
+}
+
+a:hover .share-count:after {
+  border-right-color: whitesmoke;
+}
+
+.is-large .share-count {
+  font-size: 18px;
+  padding: 0 14px;
+}
+
+/*================ Clean Buttons ================*/
+.social-sharing.is-clean a {
+  background-color: #fff;
+  border: 1px solid #ececec;
+  color: #333;
+  height: 30px;
+  line-height: 30px;
+}
+
+.social-sharing.is-clean a span {
+  height: 30px;
+  line-height: 30px;
+  font-size: 13px;
+}
+
+.social-sharing.is-clean a:hover {
+  background-color: #ececec;
+}
+
+.social-sharing.is-clean a:hover .share-count {
+  background-color: #fff;
+}
+
+.social-sharing.is-clean a:hover .share-count:after {
+  border-right-color: #fff;
+}
+
+.social-sharing.is-clean a .share-title {
+  font-weight: normal;
+}
+
+.social-sharing.is-clean .share-count {
+  top: -1px;
+}
+
+.social-sharing.is-clean .icon-facebook {
+  color: #3b5998;
+}
+
+.social-sharing.is-clean .icon-twitter {
+  color: #00aced;
+}
+
+.social-sharing.is-clean .icon-pinterest {
+  color: #cb2027;
+}
+
+.social-sharing.is-clean .icon-fancy {
+  color: #4999dc;
+}
+
+.social-sharing.is-clean .icon-google {
+  color: #dd4b39;
+}
+
+.social-sharing.is-clean .icon-reddit {
+  color: #5f99cf;
+}
+
+.social-sharing.is-clean .icon-linkedin {
+  color: #0077b5;
+}
+
+.social-sharing.is-clean .icon-skype {
+  color: #00aff0;
+}

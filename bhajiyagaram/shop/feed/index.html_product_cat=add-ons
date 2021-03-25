@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Biryaan &#187; Products</title>
+	<atom:link href="http://www.biryaan.com/shop/feed/?product_cat=add-ons" rel="self" type="application/rss+xml" />
+	<link>http://www.biryaan.com</link>
+	<description></description>
+	<lastBuildDate>Fri, 19 Aug 2016 05:35:52 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.3.5</generator>
+	<item>
+		<title>Chicken Tikka Masala (2 Pc.)</title>
+		<link>http://www.biryaan.com/order/add-ons/chicken-tikka-masala-2-pc/</link>
+		<comments>http://www.biryaan.com/order/add-ons/chicken-tikka-masala-2-pc/#comments</comments>
+		<pubDate>Wed, 16 Mar 2016 10:04:23 +0000</pubDate>
+		<dc:creator><![CDATA[biryaan]]></dc:creator>
+		
+		<guid isPermaLink="false">http://www.biryaan.com/?post_type=product&#038;p=761</guid>
+		<description><![CDATA[<p>Juicy Chicken Tikka&#8217;s Simmered In A Savory Yogurt And Tomato Gravy. Approx Weight : 100 GMs.</p>
+<p>The post <a rel="nofollow" href="http://www.biryaan.com/order/add-ons/chicken-tikka-masala-2-pc/">Chicken Tikka Masala (2 Pc.)</a> appeared first on <a rel="nofollow" href="http://www.biryaan.com">Biryaan</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Juicy Chicken Tikka&#8217;s Simmered In A Savory Yogurt And Tomato Gravy.</p>
+<p>Approx Weight : 100 GMs.</p>
+<p>The post <a rel="nofollow" href="http://www.biryaan.com/order/add-ons/chicken-tikka-masala-2-pc/">Chicken Tikka Masala (2 Pc.)</a> appeared first on <a rel="nofollow" href="http://www.biryaan.com">Biryaan</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.biryaan.com/order/add-ons/chicken-tikka-masala-2-pc/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Paneer Tikka Masala (2 Pc.)</title>
+		<link>http://www.biryaan.com/order/add-ons/paneer-tikka-masala-2-pc/</link>
+		<comments>http://www.biryaan.com/order/add-ons/paneer-tikka-masala-2-pc/#comments</comments>
+		<pubDate>Wed, 16 Mar 2016 10:03:24 +0000</pubDate>
+		<dc:creator><![CDATA[biryaan]]></dc:creator>
+		
+		<guid isPermaLink="false">http://www.biryaan.com/?post_type=product&#038;p=758</guid>
+		<description><![CDATA[<p>Paneer Cubes Grilled To Perfection And Then Cooked In Spicy Gravy. Approx Weight : 100 Gms.</p>
+<p>The post <a rel="nofollow" href="http://www.biryaan.com/order/add-ons/paneer-tikka-masala-2-pc/">Paneer Tikka Masala (2 Pc.)</a> appeared first on <a rel="nofollow" href="http://www.biryaan.com">Biryaan</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Paneer Cubes Grilled To Perfection And Then Cooked In Spicy Gravy.</p>
+<p>Approx Weight : 100 Gms.</p>
+<p>The post <a rel="nofollow" href="http://www.biryaan.com/order/add-ons/paneer-tikka-masala-2-pc/">Paneer Tikka Masala (2 Pc.)</a> appeared first on <a rel="nofollow" href="http://www.biryaan.com">Biryaan</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.biryaan.com/order/add-ons/paneer-tikka-masala-2-pc/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
